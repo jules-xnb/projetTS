@@ -1,0 +1,29 @@
+{
+  "name": "projet-pokemon",
+  "version": "1.0.0",
+  "description": "projet pokemon ",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jules-xnb/projetTS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jules-xnb/projetTS/issues"
+  },
+  "homepage": "https://github.com/jules-xnb/projetTS#readme",
+  "dependencies": {
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.3"
+  }
+}
