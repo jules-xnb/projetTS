@@ -1,5 +1,5 @@
 import {faster, Pokemon, attack} from "../models/pokemon"
-import {generateAttackArray} from "../../utils"
+import {generateAttackArray} from "../utils"
 
 test("Pokemon A faster", () => {
     const a = new Pokemon('a', 50, generateAttackArray(50)) ; 
